@@ -17,8 +17,9 @@
             <div class="hero-unit">
                 <h1>Simple PHP App</h1>
                 <h2>Congratulations</h2>
-                <p>Your PHP application is now running on a container in Amazon ECS.</p>
+                <p>Yeas~Your PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
+<img src="http://gph.is/1u8lV5d">
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
